@@ -2,12 +2,12 @@
 /**
 * main - Entry point of the program
 *
-* Return: Always 0 (if successful)
+* Return: Anything
 */
 int main(void)
 {
-	 char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	 char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
 	write(STDERR_FILENO, str, sizeof(str) - 1);
-	return (0);
+	return (1);
 }
