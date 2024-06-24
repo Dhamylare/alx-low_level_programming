@@ -8,15 +8,15 @@ int main(void)
 {
 	int c;
 	int d;
-	
-	for(c = 97; c <= 122; c++)
+
+	for (c = 97; c <= 122; c++)
 	{
 		putchar(c);
 	}
-	for(d = 65; d <= 96; d++)
+	for (d = 65; d <= 90; d++)
 	{
 		putchar(d);
 	}
-	putchar('\n');
+		putchar('\n');
 	return (0);
 }
