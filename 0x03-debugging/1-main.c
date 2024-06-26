@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
 * main - causes an infinite loop
 * Return: 0
@@ -11,7 +10,8 @@ int main(void)
 
 	printf("Infinite loop incoming :(\n");
 /**
-*	i = 0;
+* part - causing infinite loop	i = 0;
+* @\\o/\n" Member characters
 *
 *	while (i < 10)
 *	{
