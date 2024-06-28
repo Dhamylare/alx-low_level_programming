@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
 * main - Entry point of the program
 * Description: prints numbers fizzbuzz numbers 1 to 100
