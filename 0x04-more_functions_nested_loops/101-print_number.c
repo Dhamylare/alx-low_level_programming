@@ -1,0 +1,22 @@
+#include "main.h"
+
+/**
+* print_number - Function that prints integer numbers
+* @n: integer value
+* Return: return result
+*/
+
+void print_number(int n)
+{
+	unsigned int i = n;
+
+	if (n < 0)
+	{
+		_putchar(45);
+	}
+	if (i / 10)
+	{
+		print_number(i / 10);
+	}
+	_putchar(i % 10 + '0');
+}
