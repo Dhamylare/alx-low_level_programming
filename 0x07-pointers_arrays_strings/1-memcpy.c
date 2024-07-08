@@ -2,6 +2,7 @@
 /**
 * _memcpy - function fills memory with another buffer
 * @dest: destination string
+* @n: length of buffer
 * @src: source string
 * Return: dest
 */
