@@ -33,6 +33,7 @@ char *str_concat(char *s1, char *s2)
 	ptr = malloc(sizeof(char) * (lens1 + lens2 + 1));
 	if (ptr == NULL)
 	{
+		free(ptr);
 		return (NULL);
 	}
 	for (i = 0; i < lens1; i++)
