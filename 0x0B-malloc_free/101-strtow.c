@@ -31,7 +31,7 @@ char **strtow(char *str)
 		{
 		if (str[c] != ' ' && (str[c + 1] == ' ' || str[c + 1] == '\0'))
 		height++;
-		ptr = malloc(sizeof(char *) * (height + 1));
+		ptr = malloc((height + 1) * sizeof(char *));
 		}
 		if (ptr == NULL)
 		{
