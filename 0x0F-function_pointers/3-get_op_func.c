@@ -3,11 +3,11 @@
 #include <string.h>
 
 /**
-  * get_op_func - operations functions
-  * @s: pointer
-  *
-  * Return: return 0 if success
-  */
+* get_op_func - operations functions
+* @s: pointer
+*
+* Return: return 0 if success
+*/
 int (*get_op_func(char *s))(int, int)
 {
 	op_t ops[] = {

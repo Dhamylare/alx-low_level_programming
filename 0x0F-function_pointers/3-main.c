@@ -3,12 +3,12 @@
 #include <stdio.h>
 
 /**
-  * main - Entry point of the program
-  * @argc: command line argument
-  * @argv: array of the arguments
-  *
-  * Return: returns 0 when success
-  */
+* main - Entry point of the program
+* @argc: command line argument
+* @argv: array of the arguments
+*
+* Return: returns 0 when success
+*/
 int main(int argc, char *argv[])
 {
 	int (*oprt)(int, int);
