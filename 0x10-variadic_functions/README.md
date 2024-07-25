@@ -2,15 +2,19 @@
 
 # Resources
 ### Read or watch:
-> [stdarg](https://en.wikipedia.org/wiki/Stdarg.h)
-> [Variadic Functions](https://www.gnu.org/software/libc/manual/html_node/Variadic-Functions.html)
-> [Const Keyword](https://www.youtube.com/watch?v=1W4oyuOdXv8)
+* [stdarg](https://en.wikipedia.org/wiki/Stdarg.h)
+* [Variadic Functions](https://www.gnu.org/software/libc/manual/html_node/Variadic-Functions.html)
+* [Const Keyword](https://www.youtube.com/watch?v=1W4oyuOdXv8)
 
 ### man or help:
-> stdarg
+* stdarg
 
 # Additional Resources
-> [Variadic Functions in C Programming](https://www.youtube.com/watch?v=Lh7xydr8zzU)
+* [Variadic Functions in C Programming](https://www.youtube.com/watch?v=Lh7xydr8zzU)
 
 # Learning Objectives
 At the end of this project, you are expect to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/) **without the help of Google**
+# General
+* What are variadic functions
+* How to use va_start, va_arg and va_end macros
+* Why and how to use the const type qualifier
